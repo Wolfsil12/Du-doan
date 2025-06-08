@@ -14,7 +14,7 @@ from sklearn.preprocessing import LabelEncoder  # Mã hóa dữ liệu phân lo�
 from sklearn.model_selection import train_test_split  # Chia tập train/test
 from sklearn.ensemble import RandomForestClassifier  # Mô hình Random Forest
 from sklearn.metrics import accuracy_score, classification_report  # Đánh giá mô hình
-!pip install gradio #Tải thư viện gradio
+pip install gradio #Tải thư viện gradio
 import gradio as gr   # Tạo giao diện người dùng đơn giản, trực quan
 import seaborn as sns #Hỗ trợ xây dựng biểu dồ heatmap
 import matplotlib.pyplot as plt #Xây dựng biểu đồ thể hiện giá trị tương quan
